@@ -1,0 +1,48 @@
+p, span, h1, h2, h3, h4, h5, h6, ul, li{
+			padding: 0;
+			margin: 0;
+		}
+
+		ul {
+			list-style: none;
+
+		}
+
+		table {
+			align: center;
+			border: 1px;
+			width: 100%;
+		}
+
+		#table_done 			 { width: 10%; }
+		#table_description { width: 54%; }
+		#table_date 			 {		}
+		#table_status 		 { width: 20%; }
+
+		.container {
+			width: 400px;
+			margin: 10px auto;
+
+		}
+		
+		.complete_task {
+			margin: 0 auto;
+			display: block;
+		}
+
+		#section_input { 
+			text-align: center; 
+		}
+
+		#select_category {
+			text-align: center;
+			margin: 10px 0px;
+		}
+		#select_category li{
+			display: inline-block;
+			padding: 3px;
+
+		}
+		.selected {
+			background-color: lightgray;
+		}

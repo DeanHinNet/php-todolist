@@ -4,8 +4,7 @@
 require('../credentials.php');
 
 //connect to database host
-$connection = $connect_04;
-$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
+$connection = $connect_04_live;
 
 //make sure connection is good or die
 if ($connection->connect_errno) 
